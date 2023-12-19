@@ -4,16 +4,14 @@ import { App } from './App.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 
-try {
-  ReactDOM.createRoot(document.getElementById('root')).render(
-    <HashRouter>
-      <React.StrictMode>
-        <Routes>
-          <Route path="/*" element={<App />} />
-        </Routes>
-      </React.StrictMode>
-    </HashRouter>
-  );
-} catch (error) {
-  console.error('Error during rendering:', error);
-}
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
+root.render(
+  <HashRouter basename="/">
+    <React.StrictMode>
+      <Routes>
+        <Route path="*" element={<App />} />
+      </Routes>
+    </React.StrictMode>
+  </HashRouter>
+);
