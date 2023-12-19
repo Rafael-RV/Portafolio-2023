@@ -5,11 +5,11 @@ import HomePage from "./routes/HomePage";
 
 const App = () => {
   return (
-    <>
+    
      <Routes>
       <Route path="/portafolio-2023/" element={<HomePage/>} />
      </Routes>
-    </>
+    
   )
 }
 
