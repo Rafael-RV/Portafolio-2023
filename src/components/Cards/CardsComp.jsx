@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import  { useState, useEffect } from 'react';
 import proyectosData from '../../data.json';
-import Button from 'react-bootstrap/Button';
+import {Button} from 'react-bootstrap';
 import './CardsComp.css';
 
-function CardsComp() {
+export const CardsComp = () => {
     const [cardColor, setCardColor] = useState('#ffffff'); 
     const [isHovered, setIsHovered] = useState(false); 
 
@@ -55,4 +55,4 @@ function CardsComp() {
     );
 }
 
-export default CardsComp;
+

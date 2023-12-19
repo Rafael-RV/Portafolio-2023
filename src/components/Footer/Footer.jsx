@@ -2,7 +2,7 @@ import React from 'react';
 import './Footer.css';
 import { Link } from 'react-scroll';
 
-const Footer = () => {
+export const Footer = () => {
     return (
         <div className='footer'>
             <div className='footer-section section-padding'>
@@ -39,4 +39,4 @@ const Footer = () => {
     );
 }
 
-export default Footer;
+

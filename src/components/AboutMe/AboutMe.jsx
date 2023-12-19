@@ -3,7 +3,7 @@ import '../AboutMe/AboutMe.css'
 
 
 
-const AboutMe = () => {
+export const AboutMe = () => {
     return (
 
 
@@ -28,4 +28,3 @@ const AboutMe = () => {
     )
 }
 
-export default AboutMe

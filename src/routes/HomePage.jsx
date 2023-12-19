@@ -1,12 +1,12 @@
 
-import AboutMe from '../components/AboutMe/AboutMe'
-import CardsComp from '../components/Cards/cardsComp'
-import Footer from '../components/Footer/Footer'
-import MyNavbar from '../components/NavbarComp/Navbar'
+import {AboutMe} from '../components/AboutMe/AboutMe.jsx'
+import {CardsComp} from '../components/Cards/cardsComp.jsx'
+import {Footer }from '../components/Footer/Footer.jsx'
+import {MyNavbar} from '../components/NavbarComp/MyNavbar.jsx'
 import '../routes/HomePage.css'
 
 
-const HomePage = () => {
+export const HomePage = () => {
   return (
     <div>
       <MyNavbar/>
@@ -17,6 +17,4 @@ const HomePage = () => {
     </div>
   )
 }
-
-export default HomePage
 

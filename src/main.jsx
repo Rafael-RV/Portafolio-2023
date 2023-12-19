@@ -9,7 +9,7 @@ try {
     <HashRouter>
       <React.StrictMode>
         <Routes>
-          <Route path="*" element={<App />} />
+          <Route path="/*" element={<App />} />
         </Routes>
       </React.StrictMode>
     </HashRouter>

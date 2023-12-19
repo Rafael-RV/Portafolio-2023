@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import HomePage from "./routes/HomePage";
+import{ HomePage} from "./routes/HomePage.jsx";
 
 
 
@@ -9,11 +9,8 @@ export const App = () => {
   return (
     <>
       <Routes>
-        <Route path="/portafolio-2023/" element={<HomePage />} />
+        <Route path="/" element={<HomePage />} />
       </Routes>
     </>
   )
 }
-
-
-

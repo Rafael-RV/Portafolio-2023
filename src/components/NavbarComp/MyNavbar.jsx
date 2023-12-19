@@ -1,10 +1,8 @@
 import React from 'react';
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import { Link } from 'react-scroll';
+import {Container, Nav, Navbar} from 'react-bootstrap';
+import {Link } from 'react-scroll';
 
-function MyNavbar() {
+export const MyNavbar = () => {
   return (
     <Navbar id="home" expand="lg">
       <Container>
@@ -22,4 +20,4 @@ function MyNavbar() {
   );
 }
 
-export default MyNavbar;
+
